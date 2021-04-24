@@ -14,6 +14,10 @@ footer {
   margin: 0 auto;
 }
 
+.headline {
+  border-bottom: solid #888;
+}
+
 header,
 footer {
   padding: 1rem;
@@ -23,4 +27,5 @@ footer {
 
 header img {
   float: right;
+  box-shadow: 1px 1px 4px 1px #888;
 }
