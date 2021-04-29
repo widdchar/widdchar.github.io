@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    background-color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+  }
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: main;
+    text-align: center;
+}
+
+header,
+main,
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+    text-align: center;
+    background-color: rgb(2, 2, 44);
+    color: white;
+    padding: 1rem;
+}
+
+main a {
+    color: black;
+}
+
+footer a {
+    color: white;
+  }
