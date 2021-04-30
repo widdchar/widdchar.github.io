@@ -8,13 +8,21 @@ body {
     text-align: center;
   }
 
-
-
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-area: main;
     text-align: center;
+}
+
+section {
+    max-width: 25rem;
+    margin:0 auto;
+}
+
+section img {
+    max: width 100%;
+    margin-top: 1rem;
 }
 
 header,
