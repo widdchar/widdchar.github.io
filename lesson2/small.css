@@ -19,17 +19,9 @@ div img {
     margin-top: 1rem;
 }
 
-article {
+section {
     border: 0.3rem solid lightgray;
     max-width: 25rem;
-}
-
-#two {
-    padding-bottom: 3.3rem;
-}
-
-#three {
-    padding-bottom: 2.2rem;
 }
 
 h2{
