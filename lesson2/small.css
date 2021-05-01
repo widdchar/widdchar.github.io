@@ -3,7 +3,7 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 16px;
     color: black;
-    text-align: center;
+    
   }
 
 main {
@@ -11,16 +11,30 @@ main {
     grid-template-columns: 1fr;
     grid-area: main;
     text-align: center;
+    grid-gap: 1rem;
 }
 
-section {
-    max-width: 25rem;
-    margin:0 auto;
-}
-
-section img {
+div img {
     max: width 100%;
     margin-top: 1rem;
+}
+
+div {
+    border: 0.3rem solid lightgray;
+    max-width: 25rem;
+}
+
+#two {
+    padding-bottom: 3.3rem;
+}
+
+#three {
+    padding-bottom: 2.2rem;
+}
+
+h2{
+    background-color: lightgray;
+    padding: 1rem;
 }
 
 header,
