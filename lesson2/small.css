@@ -14,21 +14,25 @@ main {
     grid-gap: 1rem;
 }
 
-div img {
+img {
     max: width 100%;
     margin-top: 1rem;
 }
 
 section {
-    border: 0.3rem solid lightgray;
+    border: 3px solid lightgray;
     max-width: 25rem;
+    margin-top: 1rem;
+    border-radius: 0.6rem 0.6rem 0 0;
+    margin-bottom: 1rem;
 }
 
 h2{
     background-color: lightgray;
-    padding: 1rem;
-    border-radius: 0.5rem 0.5rem 0 0;
-    margin-bottom: 0rem;
+    display: flex;
+    align-content: center;
+    margin: 0;
+    justify-content: center;
 }
 
 header,
