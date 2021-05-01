@@ -19,7 +19,7 @@ div img {
     margin-top: 1rem;
 }
 
-div {
+article {
     border: 0.3rem solid lightgray;
     max-width: 25rem;
 }
@@ -35,6 +35,8 @@ div {
 h2{
     background-color: lightgray;
     padding: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-bottom: 0rem;
 }
 
 header,
