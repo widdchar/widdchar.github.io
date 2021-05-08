@@ -38,6 +38,26 @@ main {
     grid-gap: 1rem;
 }
 
+#pc {
+	background-color: #355834;
+	color: white;
+	padding: 1rem;
+	text-align: center;
+}
+
+#sc {
+	background-color:#7F9F8A;
+	color: white;
+	padding: 1rem;
+	text-align: center;
+}
+
+#ac {
+	background-color:#E58F65;
+	color: white;
+	padding: 1rem;
+	text-align: center;
+}
 
 header,
 main,
