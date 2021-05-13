@@ -1,0 +1,54 @@
+/*Primary Color: Hunter Green #355834
+	Secondary Color: Morning Blue #7F9F8A
+    Accent Color: Copper Crayola #E58F65 */
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    nav {
+        background-color: #7F9F8A;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav ul li a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    nav a:hover {
+        background-color: #E58F65;
+        color: white;
+    }
+    .contentbox {
+        display: block;
+        margin: 10px auto;
+        border: 1px dashed black;
+        padding: 15px;
+        background-color: #eee;
+        color: black;
+        font-style: italic;
+    }
+    
+header,
+footer {
+	background-color: #355834;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
