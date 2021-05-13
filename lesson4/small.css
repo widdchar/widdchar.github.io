@@ -5,17 +5,26 @@
     body{
         font-family: 'Montserrat', sans-serif;
     }
+
+    nav button {
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #555;
+    }
     
     nav {
         background-color: #7F9F8A;
         text-align: center;
     }
+
     nav ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
+
     nav ul li a {
         display: block;
         color: #fff;
@@ -23,11 +32,16 @@
         padding: 0.75rem;
         text-decoration: none;
         font-size: 0.95rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
     }
+
     nav a:hover {
         background-color: #E58F65;
         color: white;
     }
+
+    nav ul.hide {display: none;}
+
     .contentbox {
         display: block;
         margin: 10px auto;
@@ -37,7 +51,7 @@
         color: black;
         font-style: italic;
     }
-    
+
 header,
 footer {
 	background-color: #355834;
@@ -52,3 +66,10 @@ footer {
 footer a {
 	color: white;
 }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
