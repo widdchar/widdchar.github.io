@@ -5,6 +5,10 @@
     body{
         font-family: 'Montserrat', sans-serif;
     }
+
+    h2 {
+        text-align: center;
+    }
     
     nav {
         background-color: #7F9F8A;
@@ -75,7 +79,7 @@ footer {
 
 main, 
 footer {
-    max-width 1000px;
+    max-width: 65rem;
     margin: 0 auto;
 }
 
