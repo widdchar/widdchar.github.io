@@ -6,37 +6,12 @@ function toggleMenu() {
 
 //Date Section
 
-const days = [
-    'Sunday',
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday'
-];
+const datefield = document.querySelector("date");
 
-const months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December'
-];
+// derive the current date using a date object
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
+	now
+);
 
-const date = new Date();
-const dayOfMonth = date.getDate();
-const year = date.getFullYear();
-const day = days[date.getDay()];
-const month = months[date.getMonth()];
-const currentDate = '${day}, ${dayOfMonth} ${month} ${year}';
-
-document.querySelector('#currentYear').innerHTML = year;
-document.querySelector('#currentDate').innerHTML = currentDate;
+datefield.innerHTML = `<em>${fulldate}</em>`;
