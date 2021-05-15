@@ -14,9 +14,11 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 const datefield = document.querySelector("date");
 
 // derive the current date using a date object
-const now = new Date();
+const now = new Date(); 
+
 const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
-	now
-);
+	now);
+
+document.getElementById("date").innerHTML=fulldate
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
