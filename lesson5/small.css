@@ -9,6 +9,15 @@
     h2 {
         text-align: center;
     }
+
+    .banner {
+        display: none;
+        color: white;
+        padding: 1rem;
+        font-size: 2rem;
+        text-align: center;
+        background-color: #E58F65;
+    }
     
     nav {
         background-color: #7F9F8A;
@@ -56,6 +65,11 @@
 
     nav ul.hide {display: none;}
 
+    .active {
+        background: #ccc;
+        color: var #355834;
+    }
+
     .contentbox {
         display: block;
         margin: 10px auto;
@@ -65,6 +79,33 @@
         color: black;
         font-style: italic;
     }
+
+.herodiv {margin: 10px auto;position: relative;}
+h3, p {margin:0}
+
+.weatherSum {
+    position: absolute;
+    top: 350px;
+    left: 180px;
+    background: radial-gradient(#eee, #E58F65);
+    border: 1px solid #E58F65;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+
+.heroImage {
+    width:100%;
+    height: auto;
+}
+
+.article {
+    text-align: justify;
+}
+
+.articleImage {
+    
+}
 
 header,
 footer {

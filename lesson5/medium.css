@@ -20,4 +20,6 @@
         padding: .6rem 1rem;
     }
 
+    grid-template-columns: 1fr 1fr;
+
 } /*end medium */

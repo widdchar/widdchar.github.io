@@ -21,4 +21,9 @@ const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
 
 document.getElementById("date").innerHTML=fulldate
 
-datefield.innerHTML = `<em>${fulldate}</em>`;
+//Banner
+
+let banner = document.querySelector(".banner");
+document.addEventListener("DOMContentLoaded", () => {
+    if (Date.getDay() === 5) banner.style.display = "block";
+});
