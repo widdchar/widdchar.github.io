@@ -104,14 +104,13 @@ h3, p {margin:0}
 }
 
 .articleImage {
-    
+    float: right;
 }
+
 
 header,
 footer {
 	background-color: #355834;
-	display: flex;
-	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
@@ -127,6 +126,15 @@ footer {
 header img {
     width: 10rem;
     margin: 0.5em 0.5em 0.5em 0em;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+}
+
+footer {
+    display: grid;
 }
 
 footer a {
