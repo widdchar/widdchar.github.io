@@ -133,6 +133,7 @@ header {
     flex-flow: column;
 }
 
+main,
 footer {
     display: grid;
 }
