@@ -9,10 +9,6 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
 
-//Date Section
-
-const datefield = document.querySelector("date");
-
 // derive the current date using a date object
 const now = new Date(); 
 
@@ -22,8 +18,8 @@ const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
 document.getElementById("date").innerHTML=fulldate
 
 //Banner
+let thedate = new Date ();
 
-let banner = document.querySelector(".banner");
-document.addEventListener("DOMContentLoaded", () => {
-    if (Date.getDay() === 5) banner.style.display = "block";
-});
+    if (thedate.getDay() == 5) {
+    document.querySelector('#banner').style.display = "block";
+};

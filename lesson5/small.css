@@ -10,8 +10,7 @@
         text-align: center;
     }
 
-    .banner {
-        display: none;
+    #banner {
         color: white;
         padding: 1rem;
         font-size: 2rem;
@@ -85,7 +84,7 @@ h3, p {margin:0}
 
 .weatherSum {
     position: absolute;
-    top: 350px;
+    top: 400px;
     left: 180px;
     background: radial-gradient(#eee, #E58F65);
     border: 1px solid #E58F65;
@@ -107,6 +106,11 @@ h3, p {margin:0}
     float: right;
 }
 
+.grid,
+.forecast,
+.map {
+    display: none;
+}
 
 header,
 footer {

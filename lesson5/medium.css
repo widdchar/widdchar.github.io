@@ -20,6 +20,41 @@
         padding: .6rem 1rem;
     }
 
+	.grid { 
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+	}
+
+	.data {
+		display: block;
+		padding: 0 5px 5px;
+		font-size: 0.8rem;
+		text-align: center;
+	}
+
+	.col-head {
+		display: block;
+		padding: 5px;
+		border-bottom: 1px solid #333;
+		text-align: center;
+	}
+
+	.grid {
+		border: 1px solid #333;
+	}
+
+	.forecast,
+	.map{
+		display: grid;
+	}
+
+	.sunny {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	  }
+
 	.map {
 		margin: auto;
 		grid-row: 1;
