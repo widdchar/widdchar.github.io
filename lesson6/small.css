@@ -1,0 +1,153 @@
+/*Primary Color: Hunter Green #355834
+	Secondary Color: Morning Blue #7F9F8A
+    Accent Color: Copper Crayola #E58F65 */
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #banner {
+        color: white;
+        padding: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        background-color: #E58F65;
+    }
+    
+    nav {
+        background-color: #7F9F8A;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+	    padding: 0.75rem;
+	    text-align: left;
+	    text-decoration: none;
+	    color: black;
+	    font-weight: 700;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+   .responsive li {
+       display: block;
+   }
+
+    nav a:hover {
+        background-color: #E58F65;
+        color: white;
+    }
+
+    nav ul.hide {display: none;}
+
+    .active {
+        background: #ccc;
+        color: #355834;
+    }
+
+    .contentbox {
+        display: block;
+        margin: 10px auto;
+        border: 1px dashed black;
+        padding: 15px;
+        background-color: #eee;
+        color: black;
+        font-style: italic;
+    }
+
+.herodiv {margin: 10px auto;position: relative;}
+h3, p {margin:0}
+
+.weatherSum {
+    position: absolute;
+    top: 450px;
+    left: 180px;
+    background: radial-gradient(#eee, #E58F65);
+    border: 1px solid #E58F65;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    display: grid;
+}
+
+.heroImage {
+    width:100%;
+    height: auto;
+}
+
+.article {
+    text-align: justify;
+}
+
+.articleP {
+    padding: 1rem;
+    text-align: left;
+}
+
+.articleImage {
+    float: right;
+}
+
+.grid,
+.forecast,
+.map {
+    display: none;
+}
+
+header,
+footer {
+	background-color: #355834;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	color: white;
+}
+
+main, 
+footer {
+    max-width: 65rem;
+    margin: 0 auto;
+}
+
+header img {
+    width: 10rem;
+    margin: 0.5em 0.5em 0.5em 0em;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+}
+
+main,
+footer {
+    display: grid;
+}
+
+footer a {
+	color: white;
+}
