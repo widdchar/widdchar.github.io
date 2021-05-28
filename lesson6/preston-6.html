@@ -34,12 +34,18 @@
     </nav>
     <main>
         <h2>Preston, Idaho</h2>
-        <div class="herodiv"><img class="heroImage" src="../lesson5/neighborhood.jpg" alt="Neighborhood"></div>
+        <picture>
+            <source srcset="../lesson6/hero-medium.jpg" media="(min-width: 500px) and (max-width: 999px)">
+            <source srcset="../lesson6/hero-large.jpg" media="(min-width: 1000px)">
+            <img src="../lesson6/hero-small.jpg" alt="Landscape Image">
+        </picture>
             <section class="weatherSum"> 
                 <h3>Weather Summary</h3>
                 <p>Current: <span id="current">Sunny</span></p>
-                <p>High: <span id="high">87</span></p>
-                <p>Low: <span id="low">58</span></p>
+                <p>High: <span id="high">76</span></p>
+                <p>Windchill: <span id="windchill"></span></p>
+                <p>Humidity: <span id="humidity">69%</span></p>
+                <p>Wind Speed: <span id="windspeed">5 mph</span></p>
             </section> 
             <h3 class="forecast">5 Day Forecast</h3>
                 <div class="grid">
