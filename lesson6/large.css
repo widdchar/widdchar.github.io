@@ -10,5 +10,11 @@
         display: flex;
     }
 
+    .weatherSum {
+		z-index: 1;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
 
 } /*end large */

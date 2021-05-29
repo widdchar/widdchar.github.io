@@ -87,7 +87,6 @@ h3, p {
     margin:0}
 
 .weatherSum {
-    position: absolute;
     background: radial-gradient(#eee, #E58F65);
     border: 1px solid #E58F65;
     padding: 1rem;

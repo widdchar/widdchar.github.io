@@ -22,8 +22,21 @@
 
 	.weatherSum {
 		z-index: 1;
-		margin-top: -500px;
-		margin-right: 20px;
+		margin-top: 20px;
+		margin-left: 20px;
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+
+	.hero-container{
+		display: grid;
+	}
+
+	
+
+	.heroImage {
+		grid-column: 1/3;
+		grid-row: 1/3;
 	}
 
 	.grid { 
