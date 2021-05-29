@@ -2,7 +2,7 @@ const temp = document.querySelector(".temp").innerHTML;
 const windSpeed = docment.querySelector(".wind-speed").innerHTML;
 const windChill = document.querySelector(".wind-chill");
 
-if (temp <= 50 && windSpeed >3) {
+if ((temp <= 50) && (windSpeed >3)) {
     windChillFactir(temp, windSpeed);
 } else{
     windChill.textContent = "N/A";
