@@ -28,6 +28,6 @@ else {
 }
 
 function windChill(temp, speed) {
-    let f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * twmp * Math.pow(speed, 0.16));
+    let f = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * temp * Math.pow(speed, 0.16));
     return f
 }
