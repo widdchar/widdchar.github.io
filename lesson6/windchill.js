@@ -17,8 +17,8 @@
 let temp = document.querySelector(".temp").innerHTML;
 let speed = document.querySelector(".wind-speed").innerHTML;
 
-if ((tem <= 50) && (speed >3)) {
-    let result = wind-chill(temp, speed)
+if ((temp <= 50) && (speed >3)) {
+    let result = windChill(temp, speed)
     document.querySelector(".wind-chill").innerHTML = result.toFixed(0);
 
 }
