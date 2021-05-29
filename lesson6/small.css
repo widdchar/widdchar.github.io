@@ -79,19 +79,41 @@
         font-style: italic;
     }
 
-.herodiv {margin: 10px auto;position: relative;}
-h3, p {margin:0}
+.herodiv {
+    margin: 10px auto;
+    position: relative;}
+
+h3, p {
+    margin:0}
 
 .weatherSum {
     position: absolute;
-    top: 450px;
-    left: 180px;
     background: radial-gradient(#eee, #E58F65);
     border: 1px solid #E58F65;
-    padding: 1.5rem;
+    padding: 1rem;
     box-shadow: 0 0 30px #111;
     opacity: .8;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weatherSum h3 {
+    grid-column: 1 / span 2;
+    padding-top: 1rem;
+    text-align: center;
+    width: 90%;
+}
+
+.weather-summary-labels {
+    text-align: right;
+}
+
+.weather-summary-info {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
 }
 
 .heroImage {

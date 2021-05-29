@@ -20,6 +20,12 @@
         padding: .6rem 1rem;
     }
 
+	.weatherSum {
+		z-index: 1;
+		margin-top: -500px;
+		margin-right: 20px;
+	}
+
 	.grid { 
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
