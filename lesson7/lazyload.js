@@ -8,15 +8,20 @@ const imgOptions = {
 const loadImages = (Image) => {
     Image.setAttribute("src", Image.getAttribure("date-src"));
     Image.onload = () => {
-        Image.removeAttribure("data-src");
+        Image.removeAttribute("data-src");
     };
 };
+
+imagesToLoad.forEach((img) => {
+    loadImages(img);
+
+});
 
 if ("IntersectionObserver" in window) {
     const imgObserver = new IntersectionObserver((items, imgObserver) => {
         items.forEach((item) => {
             if (item.isIntersecting) {
-                loadImages(item.targert);
+                loadImages(item.target);
                 imgObserver.unobserve(item.target);
             }
         });
