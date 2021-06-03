@@ -6,7 +6,7 @@ const imgOptions = {
 };
 
 const loadImages = (Image) => {
-    Image.setAttribute("src", Image.getAttribute("date-src"));
+    Image.setAttribute("src", Image.getAttribute("data-src"));
     Image.onload = () => {
         Image.removeAttribute("data-src");
     };
