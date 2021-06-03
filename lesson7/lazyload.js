@@ -23,12 +23,12 @@ if ("IntersectionObserver" in window) {
     }, imgOptions);
 
 
-imgagesToLoad.forEach((img) => {
+imagesToLoad.forEach((img) => {
     imgObserver.observe(img);
 });
 
 } else {
     imagesToLoad.forEach((img)=> {
-        loadImgages(img);
+        loadImages(img);
     });
 }
