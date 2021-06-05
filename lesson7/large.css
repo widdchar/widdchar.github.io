@@ -21,3 +21,8 @@
 .gallerygrid {
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.imagetile:hover {
+    box-shadow: 2px 2px 8px 4px darkgray
+    transition: .5s;
+}

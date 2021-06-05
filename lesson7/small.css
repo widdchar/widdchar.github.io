@@ -177,6 +177,7 @@ color: white;
     column-gap: 1em;
     row-gap: 1em;
     margin-bottom: 1em;
+    max-width: 65rem;
 }
 
 img[date-src] {
