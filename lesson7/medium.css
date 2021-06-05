@@ -1,0 +1,100 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+    nav ul li a {
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .6rem 1rem;
+    }
+
+	.weatherSum {
+		z-index: 1;
+		margin-top: 20px;
+		margin-left: 20px;
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+
+	.hero-container{
+		display: grid;
+	}
+
+	.heroImage {
+		grid-column: 1/3;
+		grid-row: 1/3;
+	}
+
+	.grid { 
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+	}
+
+	.data {
+		display: block;
+		padding: 0 5px 5px;
+		font-size: 0.8rem;
+		text-align: center;
+	}
+
+	.col-head {
+		display: block;
+		padding: 5px;
+		border-bottom: 1px solid #333;
+		text-align: center;
+	}
+
+	.grid {
+		border: 1px solid #333;
+	}
+
+	.forecast,
+	.map{
+		display: grid;
+	}
+
+	.sunny {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	  }
+
+	.map {
+		margin: auto;
+		grid-row: 1;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		margin-bottom: 10px;
+	}
+	
+	.contact {
+		grid-column-start: 2;
+		grid-column-end: 2;
+		margin-bottom: 10px;
+	}
+	
+	.footer-bar {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+}
+
+/*Gallery*/
+
+.gallerygrid {
+    grid-template-columns: 1fr 1fr;
+}
