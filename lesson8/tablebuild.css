@@ -1,0 +1,64 @@
+@import url 
+
+body {
+    background-color: mintcream;
+}
+
+table, th, td {
+    border: 1px solid #C2C2C2;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    width: 5rem;
+    padding: 0.5rem 5px 0.5rem 5px;
+    text-align: center;
+}
+
+tbody :nth-child(2) {
+    width: 3rem;
+}
+
+thead:first-child {
+    background-color: #7fb9c2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+tfoot tr:first-child {
+    background-color: #7fb9c2;
+    font-size: smaller;
+}
+
+tbody {
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(3),
+tbody tr:nth-child(5),
+tbody tr:nth-child(7) {
+    background-color: #e7ffed;
+}
+
+tbody tr:first-child {
+    background-color: #628ca6;
+    color: white;
+    font-size: 14px;
+}
+
+tbody tr:nth-child(6) td:nth-child(1) {
+    font-style: italic;
+}
+
+tbody tr:nth-child(5) td:nth-child(3) {
+    background-color: #628ca6;
+    color: white;
+}
+
+table {
+    margin: 2rem auto;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 5px 5px 10px #777;
+}
