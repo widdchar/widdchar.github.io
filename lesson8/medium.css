@@ -98,3 +98,22 @@
 .gallerygrid {
     grid-template-columns: 1fr 1fr;
 }
+
+/*****Storm Report*****/
+.form-main {
+    text-align: left;
+}
+
+.top textarea {
+    display: block;
+    max-width: 24rem;
+}
+
+.thanks-main h2{
+    margin-top: 5rem;
+    font-size: 1.4rem;
+}
+
+.submitBtn {
+    margin: 0 0 2rem 2%;
+}

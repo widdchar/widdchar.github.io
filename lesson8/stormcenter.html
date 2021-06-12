@@ -38,30 +38,30 @@
         <fieldset>
             <legend>Your Information</legend>
             <label class="top">
-                "Full Name"
+                Full Name
                 <input type="text" name="fullname" pattern="[a-zA-Z -.]{5,}" required autofocus>
             </label>
             <label class="top">
-                "Email"
+                Email
                 <input type="email" name="email" placeholder="example@gmail.com" required>
             </label>
             <label class="top">
-                "Phone"
+                Phone
                 <input type="tel" name="phone" pattern="(?:(\+\d{1,})[ -]?)?)\(?(\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})" placeholder="(012)345-6789" required>
             </label>
             <label class="top">
-                "zip code"
+                Zip Code
                 <input type="number" name="zip" required>
             </label>
         </fieldset>
         <fieldset>
             <legend>Storm Information</legend>
             <label class="top">
-                "Storm Date"
+                Storm Date
                 <input list="date" name="date">
             </label>
             <label class="top">
-                "Storm Type"
+                Storm Type
                 <input list="storm-type" name="storm-type">
                 <datalist id="storm-type">
                     <option value="Flash Flood"></option>
@@ -72,7 +72,7 @@
                 </datalist>
             </label>
             <label class="top">
-                "Storm Region"
+                Storm Region
                 <select name="storm-region">
                     <option value disabled selected>Select Region ...</option>
                     <option value="preston">Preston</option>
@@ -83,21 +83,21 @@
             <div>Are you in danger?</div>
             <label class="sbs">
                 <input type="radio" name="is-danger" value="yes">
-                " Yes"
+                Yes
             </label>
             <label class="sbs">
                 <input type="radio" name="is-danger" value="no">
-                " No"
+                No
             </label>
             <label class="sbs">
                 <input type="radio" name="is-danger" value="maybe">
-                " Maybe"
+                Maybe
             </label>
         </fieldset>
         <fieldset>
             <legend>Additional Information</legend>
             <label class="top">
-                "Please leave us a comment"
+                Please leave us a comment
                 <textarea name="comment" rows="12" cols="40"></textarea>
             </label>
         </fieldset>
