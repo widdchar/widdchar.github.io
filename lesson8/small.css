@@ -254,6 +254,7 @@ form div {
     width: 100%;
     max-width: 20rem;
     line-height: 1.2;
+    font-family:"Merriweather", "serif";
 }
 
 .sbs,
@@ -281,6 +282,7 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
     text-align:center;
+    font-family:"Merriweather", "serif";
 }
 
 .top texterea {
@@ -294,6 +296,7 @@ form input.submitBtn {
 .thanks-main h2,
 .thanks-main p {
     text-align: center;
+    font-family: "Merriweather", serif;
 }
 
 .thanks-main h2 {
