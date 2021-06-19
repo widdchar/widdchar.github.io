@@ -117,3 +117,42 @@
 .submitBtn {
     margin: 0 0 2rem 2%;
 }
+
+/****Home Page****/
+.home-cards {
+	max-width: 50rem;
+	margin: 0 auto;
+	margin-top: -1.5rem;
+}
+
+.home-cards section {
+	display: flex;
+	flex-direction: row;
+	border-radius: 0;
+}
+
+.home-cards section:nth-child(1) {
+	flex-direction: row-reverse;
+}
+
+.town-info {
+	width: 100%;
+	text-align: center;
+}
+
+.town-info div {
+	font-size: 14px;
+	margin-top: -1.3rem;
+}
+
+.home-cards img {
+	margin-bottom: 0;
+	border-radius: 0;
+	max-height: 300px;
+	max-width: 400px;
+	width: 100%;
+}
+
+.home-cards div {
+	margin-bottom: 3rem;
+}
