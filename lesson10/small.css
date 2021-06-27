@@ -82,7 +82,7 @@ position: relative;}
 h3, p {
 margin:0}
 
-.weatherSum {
+.weather-summary {
 background: radial-gradient(#eee, #E58F65);
 border: 1px solid #E58F65;
 padding: 0rem;
@@ -92,20 +92,13 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 }
 
-.weatherSum h3 {
+.weather-summary h3 {
 grid-column: 1 / span 2;
 padding-top: 1rem;
 text-align: center;
 width: 90%;
 }
 
-.weather-summary-labels {
-text-align: right;
-}
-
-.weather-summary-info {
-text-align: left;
-}
 
 ul {
 list-style: none;
@@ -129,7 +122,8 @@ text-align: left;
 float: right;
 }
 
-.grid,
+.preston-5day,
+.five-day-forecast,
 .forecast,
 .map {
 display: none;
