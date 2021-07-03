@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../lesson11/small.css">
+    <link rel="stylesheet" href="../lesson11/medium.css">
+    <link rel="stylesheet" href="../lesson11/large.css">
+    <title>Weather Rainbow Report | Preston Town Page</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="discription" content="Lesson 11 for Charlotte Widdison in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+</head>
+<body>
+    <header>
+        <picture><img src="../lesson11/rainbowicon.jpg" alt="Rainbow Icon"></picture>
+        <h1>Weather Rainbow Report</h1>
+        <div class="catchphrase">Here for You!</div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="../lesson11/index.html">Home</a></li>
+            <li><a href="../lesson11/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson11/gallery.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="gallerygrid">
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/cloudyday.jpg" alt="cloudy day">
+                <div class="imagecaption">A cloudy day</div>
+            </div>
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/autumnleaves.jpg" alt="autumn leaves">
+                <div class="imagecaption">Leaves in the autumn</div>
+            </div>
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/lightningstorm.jpg" alt="lightning storm">
+                <div class="imagecaption">A lightning storm</div>
+            </div>
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/rainbowlandscape.jpg" alt="Rainbow">
+                <div class="imagecaption">A rainbow after a storm</div>
+            </div>
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/springflowers.jpg" alt="spring flowers">
+                <div class="imagecaption">Purple spring flowers</div>
+            </div>
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/sunnylake.jpg" alt="sunny day at the lake">
+                <div class="imagecaption">A sunny day at the lake</div>
+            </div>
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/sunset.jpg" alt="sunset">
+                <div class="imagecaption">Sunset</div>
+            </div>
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/windy.jpg" alt="a windy day">
+                <div class="imagecaption">A windy day</div>
+            </div>
+            <div class="imagetile">
+                <img class= "image gridimage" src="../lesson11/winter.jpg" alt="a snowy day">
+                <div class="imagecaption">A snowy day</div>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628256041!2d-111.91534455822121!3d42.09980531200503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1621474806636!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="contact">
+            <h3>Contact Information</h3><br>
+            <p>
+                Location: 555 Main St. Preston, Idaho<br>
+                Phone: 208-555-5555<br>
+                email: weatherrainbowreport@gmail.com
+            </p>
+        </div>
+        <div class="footer-bar">
+            <br> <br>
+        <p>&copy; Weather Rainbow Report | Charlotte Widdison | Utah | <a href="../index.html">Assignment Portal</a> | <a href="https://www.byui.edu/online" target="_blank"
+        >BYUI Online Learning</a></p>
+        <p id="date"></p>
+        <p> Days since last visit: <span id="days"> </span></p>
+        </div>
+    </footer>
+    <script src="../lesson11/script.js"></script>
+</body>
+</html>
+
+<!--References used to complete assignment: Brother Blazzard, Scott Jensen, teaching team, MDN Docs, and own notes.-->
