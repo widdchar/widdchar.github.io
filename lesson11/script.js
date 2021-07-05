@@ -124,3 +124,94 @@ fetch(prestonForecastURL)
       }
     }
   });
+
+  //Fish Haven Events//
+  const eventURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(eventURL)
+  .then(function (response) {
+    return response.json();
+  })
+
+  .then(function (jsonObject) {
+    console.table(jsonObject);
+    const towns = jsonObject["towns"];
+    for (let i = 0; i < towns.length; i++) {
+      if (i == 2) {
+        let fishEvent = document.createElement("p");
+        let secondFishEvent = document.createElement("p");
+        let thirdFishEvent = document.createElement("p");
+        let fourthFishEvent = document.createElement("p");
+
+        fishEvent.textContent = towns[i].events[0];
+        secondFishEvent.textContent = towns[i].events[1];
+        thirdFishEvent.textContent = towns[i].events[2];
+        fourthFishEvent.textContent = towns[i].events[3];
+
+        let fishEventsBox = document.querySelector(".fish-events");
+
+        fishEventsBox.appendChild(fishEvent);
+        fishEventsBox.appendChild(secondFishEvent);
+        fishEventsBox.appendChild(thirdFishEvent);
+        fishEventsBox.appendChild(fourthFishEvent)
+      }
+    }
+  });
+
+  //Soda Springs Events//
+  fetch(eventURL)
+  .then(function (response) {
+    return response.json();
+  })
+
+  .then(function (jsonObject) {
+    console.table(jsonObject);
+    const towns = jsonObject["towns"];
+    for (let i = 0; i < towns.length; i++) {
+      if (i == 0) {
+        let sodaEvent = document.createElement("p");
+        let secondSodaEvent = document.createElement("p");
+        let thirdSodaEvent = document.createElement("p");
+
+        sodaEvent.textContent = towns[i].events[0];
+        secondSodaEvent.textContent = towns[i].events[1];
+        thirdSodaEvent.textContent = towns[i].events[2];
+
+        let sodaEventsBox = document.querySelector(".soda-events");
+
+        sodaEventsBox.appendChild(sodaEvent);
+        sodaEventsBox.appendChild(secondSodaEvent);
+        sodaEventsBox.appendChild(thirdSodaEvent);
+      }
+    }
+  });
+
+  //Preston Events//
+  const eventURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(eventURL)
+  .then(function (response) {
+    return response.json();
+  })
+
+  .then(function (jsonObject) {
+    console.table(jsonObject);
+    const towns = jsonObject["towns"];
+    for (let i = 0; i < towns.length; i++) {
+      if (i == 6) {
+        let prestonEvent = document.createElement("p");
+        let secondPrestonEvent = document.createElement("p");
+        let thirdPrestonEvent = document.createElement("p");
+
+        prestonEvent.textContent = towns[i].events[0];
+        secondPrestonEvent.textContent = towns[i].events[1];
+        thirdPrestonEvent.textContent = towns[i].events[2];
+
+        let prestonEventsBox = document.querySelector(".preston-events");
+
+        prestonEventsBox.appendChild(prestonEvent);
+        prestonEventsBox.appendChild(secondPrestonEvent);
+        prestonEventsBox.appendChild(thirdPrestonEvent);
+      }
+    }
+  });
