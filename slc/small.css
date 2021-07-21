@@ -4,10 +4,14 @@
     --color3: #326273;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /*Nav*/
 
 nav {
-    background-color: var(--color1)
+    background-color: var(--color3);
     text-align: center;
     margin: 0 auto;
 }
@@ -55,14 +59,9 @@ nav ul.hide {display: none;}
 .active {
     background: #ccc;
     color: var(--color3);
-
-header,
-footer {
-background-color: #b4c292;
-align-items: center;
-justify-content: center;
-padding: 10px;
 }
+
+/*Main*/
 
 main, 
 footer {
@@ -73,3 +72,30 @@ margin: 0 auto;
 h2 {
     color: #326273;
 }
+
+header,
+footer {
+background-color: #b4c292;
+align-items: center;
+justify-content: center;
+padding: 10px;
+text-align: center;
+}
+
+.article {
+    text-align: justify;
+}
+
+.articleP {
+    padding: 1rem;
+    text-align: left;
+}
+
+.articleImage {
+    float: right;
+}
+
+.heroImage {
+    width:100%;
+    height: auto;
+    }
