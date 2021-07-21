@@ -99,3 +99,8 @@ text-align: center;
     width:100%;
     height: auto;
     }
+
+.submitBtn {
+    padding: 1rem;
+    background-color: var(--color2)
+}
