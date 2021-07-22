@@ -29,6 +29,59 @@
         </ul>
     </nav>
     <main>
+        <fieldset>
+            <legend>Your Information</legend>
+            <label class="top">
+                Full Name
+                <input type="text" name="fullname" pattern="[a-zA-Z -.]{5,}" required autofocus>
+            </label>
+            <label class="top">
+                Title 
+                <input type="text" name="title" pattern= "[a-zA-Z -.]{5,}">
+            </label>
+            <label class="top">
+                Email
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+            </label>
+            <label class="top">
+                Phone
+                <input type="tel" name="phone" pattern="(?:(\+\d{1,})[ -]?)?)\(?(\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})" placeholder="(012)345-6789" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Business Information</legend>
+            <label class="top">
+                Business Name
+                <input name="name" required>
+            </label>
+            <label class="top">
+                Business Address
+                <input name="address">
+            </label>
+            <label class="top">
+                Business Website
+                <input name="website">
+            </label>
+            
+            <label class="top">
+                Membership Level Selection
+                <select name="membership-level">
+                    <option value disabled selected>Select Membership Level ...</option>
+                    <option value="non-profit">Non-profit</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label class="top">
+                Business Description
+                <textarea name="comment" rows="12" cols="40"></textarea>
+            </label>
+        </fieldset>
+        <input class="submitBtn" type="submit" value="Submit My Application">
         <section class="membership">
             <h3>Non-profit ($100)</h3>
             <ul>
