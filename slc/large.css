@@ -8,3 +8,7 @@
         float: left;
         display: flex;
     }
+
+    .directoryGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
