@@ -164,3 +164,9 @@ margin-top: 1em;
     text-align: center;
 }
 
+.three-day-forecast,
+.slc-3day, 
+.weekday,
+.weathericon {
+    display: none;
+}
