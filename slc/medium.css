@@ -22,3 +22,39 @@
 	.directoryGrid {
         grid-template-columns: 1fr 1fr;
     }
+
+	.three-day-forecast {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+		margin-left: 2em;
+		margin-right: 2em;
+		border: 2px solid #333;
+		border-radius: 10px;
+		box-shadow: 5px 5px 10px #333;
+		margin-bottom: 1em;
+		background-color: rgb(207, 207, 207);
+	  }
+
+	.slc-5day {
+		display: block;
+		margin-bottom: 0;
+		margin-left: 2em;
+	  }
+
+	  .fore-temp {
+		display: block;
+		padding: 0 5px 5px;
+		font-size: 1em;
+		text-align: center;
+	  }
+	
+	  .week-day {
+		display: block;
+		padding: 5px;
+		border-bottom: 1px solid #333;
+		text-align: center;
+	  }
+
+	  .weather-icon {
+		  align-content: center;
+	  }
