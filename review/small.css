@@ -11,10 +11,12 @@ body{
 header{
     background-color: #6495ED;
     text-align: right;
+    padding-top: 1rem;
 }
 
 nav ul {
     list-style-type: none;
+    padding-bottom: 1rem;
 }
 
 header a:link {

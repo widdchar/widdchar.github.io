@@ -1,7 +1,18 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 40rem) {
 
-    h1 {
-        display: left;
+    header{
+        top: 0;
+        left: 0;
+        width: 300px;
+        position: absolute;
+    }
+
+    header{
+        border-bottom: 1400px solid #6495ED;
+    }
+
+    article{
+        margin-left: 350px;
     }
 
 }
